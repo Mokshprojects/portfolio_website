@@ -1,4 +1,13 @@
-WEBHOOK_URL = st.secrets["WEBHOOK_URL"]
+import streamlit as st
+import re
+import requests
+
+
+
+def app():
+
+
+    WEBHOOK_URL = st.secrets["WEBHOOK_URL"]
 
 
     def is_valid_email(email):
@@ -63,9 +72,6 @@ WEBHOOK_URL = st.secrets["WEBHOOK_URL"]
 
     st.title("")
     st.write("My name is Moksh Jain .I am a robotics enthusiast and a passionate coder, as well as a young developer currently studying in 10th grade in India. I have created several apps and participated in many competitions, always striving to push the boundaries of my knowledge and skills. My ultimate goal is to become the best programmer in the world, and I am dedicated to achieving this through continuous learning and innovation.")
-
-
-
 
 
 
