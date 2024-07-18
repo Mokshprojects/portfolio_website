@@ -41,9 +41,7 @@ def app():
         response = model.generate_content(prompt)
         st.write(response.text)
 
-    st.title("Contact")
-    st.write("For any queries pls email me at:")
-    st.subheader("codermj11@gmail.com")
+    
     st.write("My Github")
 
     st.subheader("https://github.com/Mokshprojects")
