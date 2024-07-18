@@ -31,9 +31,7 @@ def app():
         st.subheader("Ai recipe generator")
         st.image("images/ai.jpeg")
 
-    st.title("Contact")
-    st.write("For any queries pls email me at:")
-    st.subheader("codermj11@gmail.com")
+    
     st.write("My Github")
 
     st.subheader("https://github.com/Mokshprojects")
